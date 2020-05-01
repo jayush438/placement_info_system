@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Placements</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+<h1 style="color:white; text-align:center; margin:50px;">PLACEMENT INFO</h1>
+<div  class="main">
+<div>	
+	<ul>
+		<li ><a href="homepage.html">HOME</a></li>
+		<li class="active"><a href="student.html">STUDENT</a></li>
+		<li><a href="faculty.html">FACULTY</a></li>
+		<li><a href="tpo.html">T.P.O</a></li>
+	</ul>
+</div>
+<div>
+	<img src="ipslogo3.png" style="height: 300px; width: 250px; position: absolute; margin-left: 800px;">
+	<div style="position: absolute; margin-left: 800px; margin-top: 300px;">
+		<h2>Categories</h2>
+		<li><a href="homepage.html">HOME</a></li>
+		<li><a href="student.html">STUDENT</a></li>
+		<li><a href="faculty.html">FACULTY</a></li>
+		<li><a href="tpo.html">T.P.O</a></li>
+	</div>
+</div>
+<div class="slider">
+
+</div>
+<footer style="margin-left: 150px;">
+<div>
+		<h1>ADD PLACEMENTS</h1>
+		<form name="addplacements" action="AddPlacementsServlet" method="post">
+			<label for="cname">COMPANY NAME:</label>
+			<input type="text" name="companyname" id="companyname"></br>
+			<label for="desc">DESCRIPTION:</label>
+			<input type="text" name="description" id="description" ></br>
+			<label for="date">DATE:</label>
+			<input type="date" name="date" id="date" ></br>
+			<input type="submit" value="Add">	
+		</form>
+</div>
+</footer>
+	
+</div>
+
+
+</body>
+</html>

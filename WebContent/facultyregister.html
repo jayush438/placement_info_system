@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Faculty</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+<h1 style="color:white; text-align:center; margin:50px;">PLACEMENT INFO</h1>
+<div  class="main">
+<div>	
+	<ul>
+		<li><a href="homepage.html">HOME</a></li>
+		<li><a href="student.html">STUDENT</a></li>
+		<li class="active"><a href="faculty.html">FACULTY</a></li>
+		<li><a href="tpo.html">T.P.O</a></li>
+	</ul>
+</div>
+<div>
+	<img src="ipslogo3.png" style="height: 300px; width: 250px; position: absolute; margin-left: 800px;">
+	<div style="position: absolute; margin-left: 800px; margin-top: 300px;">
+		<h2>Categories</h2>
+		<li><a href="homepage.html">HOME</a></li>
+		<li><a href="student.html">STUDENT</a></li>
+		<li><a href="faculty.html">FACULTY</a></li>
+		<li><a href="tpo.html">T.P.O</a></li>
+	</div>
+</div>
+<div class="slider">
+</div>
+<footer style="margin-left: 150px;">
+<div>
+<h1>REGISTRATION</h1>
+		<form name="registrationform" action="FacultyRegistrationServlet" onsubmit="return validateform()">
+			
+			<input type="text" name="name" id="name" placeholder="Name" required></br>
+			
+			<input type="email" name="email" id="email" placeholder="E-mail" required></br>
+			
+			<input type="date" name="db" id="db" placeholder="Date Of Birth" required></br>
+			
+			<input type="text" name="address" id="address" placeholder="Address" required></br>
+		
+			<input type="tel" name="mobileno" id="mobileno" placeholder="Mobile-No." required></br>
+			
+			<input type="text" name="username" id="username" placeholder="Username" required></br>
+			
+			<input type="Password" name="password" id="password" placeholder="Password" required></br>
+			
+			<input type="Password" name="password2" id="password2" placeholder="Retype Password" required></br>
+			<input type="submit"  name="register" value="Register">		
+		</form>
+</div>		
+</footer>
+</div>
+</body>
+</html>

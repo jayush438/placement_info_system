@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Send Information</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+<h1 style="color:white; text-align:center; margin:50px;">PLACEMENT INFO</h1>
+<div  class="main">
+<div>	
+	<ul>
+		<li ><a href="homepage.html">HOME</a></li>
+		<li><a href="student.html">STUDENT</a></li>
+		<li><a href="faculty.html">FACULTY</a></li>
+		<li class="active"><a href="tpo.html">T.P.O</a></li>
+	</ul>
+</div>
+<div>
+	<img src="ipslogo3.png" style="height: 300px; width: 250px; position: absolute; margin-left: 800px;">
+	<div style="position: absolute; margin-left: 800px; margin-top: 300px;">
+		<h2>Categories</h2>
+		<li><a href="homepage.html">HOME</a></li>
+		<li><a href="addplacements.html">ADD PLACEMENTS</a></li>
+		<li><a href="viewapplications.html">VIEW APPLICATIONS</a></li>
+			<li><a href="sendinformation.html">SEND INFROMATION</a></li>
+		<form action="tpo.html">
+        <button type="submit" name="logout" style="text-align: center;margin-top: 0px">Logout</button><br><br>
+      </form>
+	</div>
+</div>
+<div class="slider">
+
+</div>
+<footer style="margin-left: 150px;">
+<div>
+		 <h1>SEND INFORMATION</h1>
+		<form name="sendinformation" action="SendInformationServlet" method="post">
+			<label for="nam">Message:</label>
+			<input type="text" name="message" id="message" size="80"></br>
+			<label for="nam">Message:</label>
+			<input type="date" name="date" id="date"></br>
+			<input type="submit" value="Send">	
+		</form>
+</div>
+</footer>
+	
+</div>
+
+
+
+
+</body>
+</html>
